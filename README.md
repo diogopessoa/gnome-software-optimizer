@@ -1,6 +1,5 @@
-# GNOME Software Optimizer for Ubuntu
-
-This script installs and optimizes GNOME Software on Ubuntu and Debian derivatives, making it faster and more responsive, similar to the behavior found in Zorin OS. It removes Snap Store, but keeps Snap support enabled and prioritizes Flatpak.
+# GNOME Software Optimizer
+An automated script to install and optimize GNOME Software on Ubuntu and Debian derivatives, making it faster and more responsive, similar to the behavior found in Zorin OS.
 
 ## Why do This? 
 
@@ -9,9 +8,10 @@ However, if you want a ready-to-use system without having to make these adjustme
 
 ## Features
 
-- Keeps Snap support in GNOME Software
+- Install GNOME Software with quick startup 
+- Removes Snap Store
+- Keeps Snap support and prioritizes Flatpak
 - Enables Flatpak support and adds the Flathub repository
-- Quick startup of GNOME Software
 - Disables automatic updates in GNOME Software
 - Reduces frequency of Snap refresh operations
 - Disables less-used plugins (like fwupd and os-updates)

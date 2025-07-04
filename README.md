@@ -16,7 +16,7 @@ However, if you want a ready-to-use system without having to make these adjustme
 - Reduces frequency of Snap refresh operations
 - Disables less-used plugins (like fwupd and os-updates)
 
-## 🟢 Compatible with:
+## Prerequisites
 
 - Ubuntu 22.04+ to 25.04
 - Debian 12+ (with GNOME)
@@ -40,7 +40,7 @@ However, if you want a ready-to-use system without having to make these adjustme
    sudo ./gnome-software-optimizer.sh
    ```
 
-## Notes
+## Disclaimer
 
 This script has been tested on Ubuntu-based systems running GNOME Shell. Use it at your own risk!
 

@@ -54,6 +54,6 @@ Distributed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 * [Ubuntu](https://ubuntu.com)
 * [Zorin OS](https://zorin.com)
-* [GNOME Software](https://wiki.gnome.org/Apps/Software)
+* [GNOME Software](https://apps.gnome.org/Software/)
 
 All trademarks, logos, and names are property of their respective owners.

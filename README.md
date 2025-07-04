@@ -16,6 +16,12 @@ However, if you want a ready-to-use system without having to make these adjustme
 - Reduces frequency of Snap refresh operations
 - Disables less-used plugins (like fwupd and os-updates)
 
+## Demo Video
+
+Watch the optimization in action and compare the loading time before and after applying the script:
+
+[![Watch the video](https://img.youtube.com/vi/zON5pJXhV7Y/0.jpg)](https://youtu.be/zON5pJXhV7Y)
+
 ## Prerequisites
 
 - Ubuntu 22.04+ to 25.04

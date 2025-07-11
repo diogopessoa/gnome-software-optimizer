@@ -21,7 +21,7 @@ However, if you want a ready-to-use system without having to make these adjustme
 - Keeps Snap support and prioritizes Flatpak
 - Enables Flatpak support and adds the Flathub repository
 - Reduces frequency of Snap refresh operations
-- Disables less-used plugins (like fwupd and os-updates)
+- Disables plugin fwupd (only in GNOME Software)
 
 ## Demo Video
 

@@ -19,11 +19,6 @@ apt install -y flatpak gnome-software-plugin-flatpak
 echo "🔗 Adding Flathub as Flatpak remote (se ainda não existir)..."
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 
-echo "⚙️ Disabling automatic updates..."
-sudo -u "$SUDO_USER" dbus-launch gsettings set org.gnome.software download-updates false
-sudo -u "$SUDO_USER" dbus-launch gsettings set org.gnome.software allow-updates false
-sudo -u "$SUDO_USER" dbus-launch gsettings set org.gnome.software allow-upgrade false 2>/dev/null || echo "⚠️ Key allow-upgrade not found, ignoring..."
-
 echo "⚙️ Adjusting Snap to avoid frequent updates..."
 snap set system refresh.retain=2
 snap set system refresh.timer=00:00-23:59
@@ -31,7 +26,6 @@ snap set system refresh.timer=00:00-23:59
 echo "🧹 Disabling less essential plugins (como fwupd e os-updates)..."
 PLUGINS_DIR="/usr/lib/gnome-software/plugins"
 mv "$PLUGINS_DIR/gs-plugin-fwupd.so" "$PLUGINS_DIR/gs-plugin-fwupd.so.disabled" 2>/dev/null
-mv "$PLUGINS_DIR/gs-plugin-os-updates.so" "$PLUGINS_DIR/gs-plugin-os-updates.so.disabled" 2>/dev/null
 
 echo "🧼 Cleaning GNOME Software cache..."
 rm -rf /home/"$SUDO_USER"/.cache/gnome-software

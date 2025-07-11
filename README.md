@@ -20,7 +20,6 @@ However, if you want a ready-to-use system without having to make these adjustme
 - Removes Snap Store
 - Keeps Snap support and prioritizes Flatpak
 - Enables Flatpak support and adds the Flathub repository
-- Disables automatic updates in GNOME Software
 - Reduces frequency of Snap refresh operations
 - Disables less-used plugins (like fwupd and os-updates)
 

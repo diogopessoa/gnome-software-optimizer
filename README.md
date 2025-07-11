@@ -1,6 +1,14 @@
 # GNOME Software Optimizer
 An automated script to install and optimize GNOME Software on Ubuntu and Debian derivatives, making it faster and more responsive, similar to the behavior found in Zorin OS.
 
+<table>
+  <tr>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/UbuntuCoF.svg" width="150" /></td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/GNOME_Software_47.png/1024px-GNOME_Software_47.png" width="150" /></td>
+    </tr>
+</table>
+
+
 ## Why do This? 
 
 If you like Ubuntu and prefer GNOME Software with Flatpak, Snap, and DEB package options, this is for you!

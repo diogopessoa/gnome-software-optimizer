@@ -39,7 +39,7 @@ Watch the optimization in action and compare the loading time before and after a
 
 1. Download the script:
    ```bash
-   cd ~ Downloads/gnome-software-optimizer
+   cd ~/Downloads
    wget https://raw.githubusercontent.com/diogopessoa/gnome-software-optimizer/main/gnome-software-optimizer.sh
    ```
 

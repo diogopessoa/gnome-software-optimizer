@@ -37,10 +37,10 @@ Watch the optimization in action and compare the loading time before and after a
 
 ## How to Use
 
-1. Clone this repository or download the script:
+1. Download the script:
    ```bash
-   git clone https://github.com/YOUR_USERNAME/gnome-software-optimizer.git
-   cd gnome-software-optimizer
+   cd ~ Downloads/gnome-software-optimizer
+   wget https://raw.githubusercontent.com/diogopessoa/gnome-software-optimizer/main/gnome-software-optimizer.sh
    ```
 
 2. Make the script executable:
